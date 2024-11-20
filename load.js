@@ -17,5 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    const scrollTopButton = document.querySelector('.scroll-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+            scrollTopButton.style.display = 'block'; 
+        } else {
+            scrollTopButton.style.display = 'none'; 
+        }
+    });
     
 });
