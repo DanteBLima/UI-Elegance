@@ -254,3 +254,23 @@ footer {
         font-size: 1rem;
     }
 }
+    .scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #6a11cb;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.3s;
+    display: none;
+}
+
+.scroll-top:hover {
+    background: #2575fc;
+}
