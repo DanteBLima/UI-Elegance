@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+
     const scrollTopButton = document.querySelector('.scroll-top');
 
     window.addEventListener('scroll', () => {
