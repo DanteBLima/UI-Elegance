@@ -3,46 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UI Elegance - Aprenda com os erros, crie com excelência</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styless.css">
+    <title>Design Ruim - Exemplos e Análises</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        .bad-design-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            padding: 2rem 0;
-        }
-        .bad-design-item {
-            background-color: #ffffff;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-        .bad-design-item:hover {
-            transform: translateY(-5px);
-        }
-        .bad-design-image {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-        .bad-design-content {
-            padding: 1rem;
-        }
-        .bad-design-content h3 {
-            color: #6e8efb;
-            margin-bottom: 0.5rem;
-        }
-        .bad-design-content p {
-            font-size: 0.9rem;
-            color: #666;
-        }
-
-    
-    </style>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -59,81 +23,91 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="design.html">Design</a></li>
-                    <li><a href="#links">Recursos</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#links">Material</a></li>
+                    <li><a href="index.html#contact">Contato</a></li>
+                    <li><a href="precos.html">Orçamento</a></li>
                     <li><a href="login.html">Login</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Exemplos de Design Ruim</h1>
-                <div class="textCreative">
-                    <h2>Usabilidade é melhor do que criatividade</h2>
-                </div>
+
+    <main class="container">
+
+        <h1 class="main-title"><strong>Exemplos de Design Ruim</h1></strong>
+        <p class="subtitle"><strong>Usabilidade é melhor que criatividade - Aprenda com exemplos reais</p></strong>
+
+        <div class="swapMenu">
+            <input type="checkbox" id="swap" class="swapM">
+            <label for="swap" class="swap-label">
+                <span class="swap-ruins">Design Ruins</span>
+                <span class="swap-bons">Design Bons</span>
+            </label>
+        </div>
+
+        <div class="video-container">
+            <h2 class="video-title"><a href="https://goulartnogueira.github.io/BadUI/Phone-Slider-Selector/BadUIPhone.html" target="_blank"><u>Bad Phone Selector</h2></u></a>
+            <div class="video-frame">
+                
+                
+                <video width="800" height="560" controls>
+                    <source src="exemplo1.mp4" type="video/mp4">
+                    Seu navegador não suporta a reprodução de vídeos.
+                </video>
             </div>
+            
+        </div>
+
+        <br><br>
+
+    <!-- ////////////////////////////--> <!-- ////////////////////////////--> <!-- ////////////////////////////-->
+    <!-- ////////////////////////////--> <!-- ////////////////////////////--> <!-- ////////////////////////////-->
+    <!-- ////////////////////////////--> <!-- ////////////////////////////--> <!-- ////////////////////////////-->
+    <!-- ////////////////////////////--> <!-- ////////////////////////////--> <!-- ////////////////////////////-->
+    <!-- ////////////////////////////--> <!-- ////////////////////////////--> <!-- ////////////////////////////-->
+
+
+        <div class="video-container">
+            <h2 class="video-title"><a href="https://www.art.yale.edu" target="_blank"><u>Yale School of Art</h2></u></a>
+            <div class="video-frame">
+                
+                
+                <video width="800" height="560" controls>
+                    <source src="exemplo2.mp4" type="video/mp4">
+                    Seu navegador não suporta a reprodução de vídeos.
+                </video>
+            </div>
+            
+        </div>
+
+        <section class="analysis">
+            <h3>Análise Detalhada</h3>
+            <ul class="analysis-points">
+                <li>
+                    <strong>Problema de Hierarquia:</strong> A navegação não possui uma estrutura clara, 
+                    dificultando o entendimento da organização do conteúdo.
+                </li>
+                
+                <li>
+                    <strong>Sobrecarga Visual:</strong> Excesso de elementos na tela compete pela atenção do usuário, 
+                    prejudicando a experiência de navegação.
+                </li>
+                <li>
+                    <strong>Mal Planejamento:</strong> Péssima organização, componentes mal estruturados, usuário tem dificuldade para navegar
+                    entre as opções do site, interface mal feita que não agrada os olhos, escolha de cores totalmente desleixada, tudo no site 
+                    atrapalha a experiência do usuário.
+                </li>
+            </ul>
         </section>
 
-        <section class="bad-design-examples">
-            <div class="container">
-                <div class="bad-design-grid">
-                    <a href="https://www.lingscars.com/" target="_blank" rel="noopener noreferrer" class="bad-design-item">
-                        <img src="/placeholder.svg?height=200&width=300" alt="Screenshot do site Ling's Cars" class="bad-design-image">
-                        <div class="bad-design-content">
-                            <h3>Ling's Cars</h3>
-                            <p>Um exemplo clássico de sobrecarga visual e falta de hierarquia de informações.</p>
-                        </div>
-                    </a>
-                    <a href="https://www.arngren.net/" target="_blank" rel="noopener noreferrer" class="bad-design-item">
-                        <img src="/placeholder.svg?height=200&width=300" alt="Screenshot do site Arngren" class="bad-design-image">
-                        <div class="bad-design-content">
-                            <h3>Arngren</h3>
-                            <p>Layout caótico e falta de espaço em branco tornam a navegação difícil.</p>
-                        </div>
-                    </a>
-                    <a href="https://www.theworldsworstwebsiteever.com/" target="_blank" rel="noopener noreferrer" class="bad-design-item">
-                        <img src="/placeholder.svg?height=200&width=300" alt="Screenshot do The World's Worst Website Ever" class="bad-design-image">
-                        <div class="bad-design-content">
-                            <h3>The World's Worst Website Ever</h3>
-                            <p>Um exemplo intencional de praticamente todos os erros de design possíveis.</p>
-                        </div>
-                    </a>
-                    <a href="https://www.art.yale.edu/" target="_blank" rel="noopener noreferrer" class="bad-design-item">
-                        <img src="/placeholder.svg?height=200&width=300" alt="Screenshot do site Yale School of Art" class="bad-design-image">
-                        <div class="bad-design-content">
-                            <h3>Yale School of Art</h3>
-                            <p>Design inconsistente e confuso, ironicamente de uma escola de arte renomada.</p>
-                        </div>
-                    </a>
-                    <a href="https://www.suzannecollinsbooks.com/" target="_blank" rel="noopener noreferrer" class="bad-design-item">
-                        <img src="/placeholder.svg?height=200&width=300" alt="Screenshot do site de Suzanne Collins" class="bad-design-image">
-                        <div class="bad-design-content">
-                            <h3>Suzanne Collins Books</h3>
-                            <p>Design antiquado e pouco atraente para uma autora best-seller.</p>
-                        </div>
-                    </a>
-                    <a href="https://www.gatesnfences.com/" target="_blank" rel="noopener noreferrer" class="bad-design-item">
-                        
-                        <div class="bad-design-content">
-                            <h3>Gates N Fences</h3>
-                            <img src="gates.png" alt="Screenshot do site Gates N Fences" class="bad-design-image">
-                            <p>Grande sobrecarga visual, péssima escolha de cores e distribuição de elementos na tela</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 UI Elegance. Todos os direitos reservados.</p>
+        <p>&copy; 2024 UI Elegance. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
+   <script src="load.js"></script>
+   <script src="swapMenu.js"></script>
 </body>
 </html>
-
-

@@ -20,7 +20,7 @@ body {
 
 
 header {
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     padding: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -57,7 +57,7 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 6rem 0;
-    background: linear-gradient(135deg, #a777e3, #6e8efb);
+    background: linear-gradient(135deg, #6a11cb, #2575fc);;
     color: #ffffff;
 }
 
@@ -213,7 +213,7 @@ button:hover {
 
 
 footer {
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: #ffffff;
     text-align: center;
     padding: 2rem;

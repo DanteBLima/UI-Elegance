@@ -27,5 +27,13 @@ document.addEventListener('DOMContentLoaded', function() {
             scrollTopButton.style.display = 'none'; 
         }
     });
+
+    const secondaryNavLinks = document.querySelectorAll('.secondary-nav a');
+        secondaryNavLinks.forEach(link => {
+          link.addEventListener('click', function(e) {
+            secondaryNavLinks.forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+          });
+        });
     
 });
